@@ -25,7 +25,9 @@ ___________________________________________________
 ![shop 2](https://user-images.githubusercontent.com/92791586/160384275-db15bcd1-ce6b-49bf-9a20-93fb805c096d.PNG)
 
 4. Main Home Page
- ![second home page](https://user-images.githubusercontent.com/92791586/160615442-d88ffa20-ccc8-4660-bcea-01182284ffdb.PNG)
+  ![second home navar](https://user-images.githubusercontent.com/92791586/160618326-1152efff-ea80-4c1a-aa5f-2f06f6005c26.PNG)
+   ![beach iamge home](https://user-images.githubusercontent.com/92791586/160617102-0310e9b5-31d6-4043-b064-d87253e0fa3a.PNG)
+
 
 
 5. Mens shopping, add to card,remove item.
