@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1{
+          text-align: center;
+      }
+      .child1{
+        margin: auto;
+        margin-top: 15px;
+        width: 348px;
+        height:400px;
+        border: 1px solid rgb(218, 212, 212);
+        
+        padding: 20px 17px;
+        box-sizing: border-box;
+    
+      }
+      .button1{
+        font-size: 17px;
+        width:52%;
+        height: 30px;
+        text-align: center;
+        margin-top: 14px;
+        background-color:orangered;
+        border: 1px solid #a5873b;
+      
+        letter-spacing: 0.5px;
+        color:white;
+      }
+      .labels {
+        font-size: 13px;
+        font-weight: bolder;
+      }
+    </style>
+</head>
+<body>
+<h1>Payment Page</h1>
+<form>
+   
+   <div class="child1">
+
+      <!-- card number -->
+     <p style="margin-bottom: 5px" class="labels">Your card Number</p>
+    
+     <input type="text" class="input" id="card"/>
+
+         <!-- cvv number-->
+
+     <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">CVV Number</div>
+ 
+     <input type="text" class="input" id="cvv" />
+
+         <!-- expiry date-->
+     
+     <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Expiry Date</div>
+      
+     <input type="password" class="input" id="pass" placeholder="date"/> 
+
+     <!-- <------otp number-------------->  
+     
+       <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">otp</div>
+     <input type="password" class="input" id="otp"/> 
+     
+     <!-- #button -->
+     <button class="button1" id="button" >submit</button>
+
+ </form>
+</body>
+</html>
+
+<script>
+document.querySelector("form").addEventListener("submit",myfunc);
+
+var ArrData=JSON.parse(localStorage.getItem("card"))
+
+function myfunc(){
+event.preventDefault();
+
+var catObj={
+  card:document.querySelector("#card").value,
+  cvv:document.querySelector("#cvv").value,
+  expiry:document.querySelector("#pass").value,
+  otp:document.querySelector("#otp").value,
+
+
+}
+ArrData.push(catObj);
+// window.location.href="index.html"
+localStorage.setItem("card",JSON.stringify("ArrData"))
+}
+</script> 

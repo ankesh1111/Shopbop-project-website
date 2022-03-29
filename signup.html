@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+ <style>
+      body {
+        font-family: sans-serif;
+      }
+      .logo{
+        display: flex;
+        justify-content: center;
+      }
+      .child1{
+        margin: auto;
+        margin-top: 15px;
+        width: 348px;
+        height:516px;
+        border: 1px solid rgb(218, 212, 212);
+        
+        padding: 20px 17px;
+        box-sizing: border-box;
+        /* box-shadow: 2px 2px 5px 5px rgb(235, 235, 235); */
+      }
+      .labels {
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      .button1{
+        font-size: 12px;
+        width:100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 14px;
+        background-color:orangered;
+        border: 1px solid #a5873b;
+      
+        letter-spacing: 0.5px;
+        color:white;
+      }
+      .button1:hover {
+        background-color: #f0c454;
+      }
+      .button2 {
+        font-size: 12px;
+        height: 30px;
+        margin-top: 0;
+        width: 100%;
+        letter-spacing: 0.5px;
+      }
+      .input{
+        display: block;
+        height: 28px;
+        width: 97%;
+        border: 1px solid rgb(155, 154, 154);
+        
+      }
+      .new{
+        text-align: center;
+        color: rgb(143,135,126);
+        margin-top: 30px;
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+      .littlePara {
+        margin-top: 22px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        color: rgb(43, 43, 43);
+      }
+      .checkBox {
+        letter-spacing: 0.5px;
+        font-size: 12px;
+      }
+      .bottomLinks {
+        margin-top: 27px;
+        margin-left: 40%;
+        color: orangered;
+        font-size: 11px;
+      }
+      .bottomLinks > span {
+        margin-right: 25px;
+      }
+    </style>
+  </head>
+
+<body> 
+
+    <h1 style="text-align:center">Shopbob</h1>
+    
+    
+    <div class="child1">
+      <p style="font-size: 28px; line-height: 10px; margin-top: 12px;">Create Account</p>
+      <p style="margin-bottom: 5px" class="labels">Your name</p>
+      <!-- #name -->
+      <input type="text" class="input" id="name"/>
+
+      <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Email</div>
+      <!-- #email -->
+      <input type="text" class="input" id="email" />
+      
+      <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Password</div>
+      <!-- #pass -->
+      <input type="password" class="input" id="pass" placeholder=" At least 6 characters"/> 
+      
+        <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Re-enter password</div>
+      <input type="password" class="input" id="reEnterPass"/> 
+      
+      <!-- #button -->
+      <button class="button1" id="button" >Create account</button>
+      <p class="littlePara">By creating an account, you agree to our <a style="text-decoration: none; letter-spacing: 0.5px;color: orangered;" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use</a> and <a style="text-decoration: none; letter-spacing: 0.5px;color: orangered;" href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice.</a></p>
+      
+      <hr style="border: 1px solid rgb(226, 226, 226); margin: 24px 44px;">
+
+      <p style="font-size: 13px;">
+        <span>Already have an account?</span> <a style="text-decoration: none; color: orangered;" href="Login.html">Sign-In</a>
+      </p>
+    </div>
+
+    <hr style="border: 1px solid rgb(226, 226, 226); width: 70%; margin-top: 25px;">
+
+    <div class="bottomLinks">
+       
+      <span style="text-align: center;">Contact Us</span>
+    </div>
+
+    <p style="margin-left: 40%; font-size: 12px; color: grey;">© 1999-2020 BOP LLC.All Rights Reserved. Privacy Notice Conditions of Use</p>
+        
+
+</body>
+  <!-- <script src="./Script/index.js"></script> -->
+</html>
+
+<script>
+    document.querySelector("#button").addEventListener("click",createAcc)
+    var dataArr = JSON.parse(localStorage.getItem("dataOfAcc")) || [];
+    
+    function createAcc(){
+    var pass1 = document.querySelector("#pass").value
+    var pass2 = document.querySelector("#reEnterPass").value
+    if(pass1==pass2) {
+        var dataObj = {
+            name : document.querySelector("#name").value,
+            email : document.querySelector("#email").value,
+            password : document.querySelector("#pass").value
+        }
+        dataArr.push(dataObj)
+        console.log(dataArr)
+        localStorage.setItem("dataOfAcc",JSON.stringify(dataArr))
+        window.location.href = "login.html";
+    } else {
+        alert("Both the entered password does not match with each other")
+    }
+   
+    }
+    
+    </script>
+    </style> 
+     

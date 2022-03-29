@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .child1{
+        margin: auto;
+        margin-top: 15px;
+        width: 348px;
+        height:450px;
+       padding: 20px 17px;
+        box-sizing: border-box;
+    
+      }
+      .labels {
+        font-size: 13px;
+        font-weight: bolder;
+      }
+      .button1{
+        font-size: 12px;
+        width:100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        background-color:orangered;
+        border: 1px solid #a5873b;
+        color:white;
+      }
+     
+      .button2 {
+        font-size: 12px;
+        height: 30px;
+        margin-top: 0;
+        width: 100%;
+     
+      }
+      .input{
+        display: block;
+        height: 28px;
+        width: 97%;
+        border: 1px solid rgb(155, 154, 154);
+        
+      }
+      
+      
+      .button3{
+          width:50%;
+          text-align: center;
+         margin-left: 60px;
+
+    }
+    .button4{
+        font-size: 12px;
+        width:100%;
+        height: 30px;
+        text-align: center;
+        margin-top: 10px;
+        background-color: black;
+        border: 1px solid #a5873b;
+       color:white;
+    }
+    </style>
+</head>
+<body>
+    <!-- <h1 style="text-align: center;">Shopbop</h1> -->
+    <h1 style="text-align: center;">Sign In </h1>
+    
+  
+    <form>
+
+        <div class="child1">
+                 <!-- #email -->
+       <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Email</div>
+               
+      <input type="text" class="input" id="email" />
+       <!-- #pass -->
+      <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Password</div>
+     
+      <input type="password" class="input" id="pass" placeholder=" At least 6 characters"/> 
+      
+      <button class="button1" id="button" >Sign In</button>
+
+      <p>Keep me signed in. Details</p>
+       
+      <hr>
+      <p style="text-align: center;">More sign In Options</p>
+      <button class="button3">Login with Amazon</button>
+      <hr>
+      
+             <p style="text-align: center;">New to shopbop?</p> 
+             <button class="button4">Create your Shopbop account</button>  
+       </form>
+  
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit", loginfun);
+
+    var regdUsers=JSON.parse(localStorage.getItem("dataOfAcc"))
+    function loginfun(){
+        event.preventDefault()
+
+        var enterEmail=document.querySelector("#email").value;
+        var enterPassword=document.querySelector("#pass").value;
+
+        for(var i=0;i<regdUsers.length;i++){
+            console.log(regdUsers[i])
+            if (
+        regdUsers[i].email == enterEmail &&
+        regdUsers[i].password == enterPassword
+      ) {
+        alert("login success");
+        window.location.href = "index.html";
+        break;
+      } else {
+        console.log("login failed");
+       }
+    
+     }
+
+    }
+</script>
