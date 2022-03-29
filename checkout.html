@@ -76,7 +76,8 @@
 <script>
 document.querySelector("form").addEventListener("submit",myfunc);
 
-var ArrData=JSON.parse(localStorage.getItem("card"))
+var ArrData=JSON.parse(localStorage.getItem("cart"))
+console.log(ArrData)
 
 function myfunc(){
 event.preventDefault();
@@ -90,7 +91,7 @@ var catObj={
 
 }
 ArrData.push(catObj);
-// window.location.href="index.html"
-localStorage.setItem("card",JSON.stringify("ArrData"))
+// window.location.href="index1.html"
+localStorage.setItem("cart",JSON.stringify("ArrData"))
 }
 </script> 
