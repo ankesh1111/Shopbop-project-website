@@ -13,7 +13,7 @@ Shopbop is a US online fashion apparel and accessories shop opened in 1999. It h
 ___________________________________________________
 
 1.Home Page
-![shop](https://user-images.githubusercontent.com/92791586/160362654-9d89c3dd-3137-485d-b0f3-2739e09f488f.PNG)
+ ![first shop image](https://user-images.githubusercontent.com/92791586/160615370-1728f19e-2805-4651-a77c-ad1507a11b71.PNG)
 
 2. Create Account or Signup Page
  ![shop1](https://user-images.githubusercontent.com/92791586/160384100-2a41c9a2-e5aa-4141-98f9-dd069ffd9c96.PNG)
@@ -23,7 +23,8 @@ ___________________________________________________
 ![shop 2](https://user-images.githubusercontent.com/92791586/160384275-db15bcd1-ce6b-49bf-9a20-93fb805c096d.PNG)
 
 4. Main Home Page
-![shop](https://user-images.githubusercontent.com/92791586/160362654-9d89c3dd-3137-485d-b0f3-2739e09f488f.PNG)
+ ![second home page](https://user-images.githubusercontent.com/92791586/160615442-d88ffa20-ccc8-4660-bcea-01182284ffdb.PNG)
+
 
 5. Mens shopping, add to card,remove item.
  ![shop 3](https://user-images.githubusercontent.com/92791586/160384312-f8219e13-376b-4801-9511-63dacd89f2cb.PNG) 
