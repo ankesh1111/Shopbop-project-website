@@ -13,9 +13,10 @@ Shopbop is a US online fashion apparel and accessories shop opened in 1999. It h
 ___________________________________________________
 
 1.Home Page
- ![navbar image](https://user-images.githubusercontent.com/92791586/160617625-f4e414ac-e2c9-40d5-b827-0548dac2a531.PNG)
 
- ![beach iamge home](https://user-images.githubusercontent.com/92791586/160617102-0310e9b5-31d6-4043-b064-d87253e0fa3a.PNG)
+![homw navbar](https://user-images.githubusercontent.com/92791586/160887594-39ad2bff-b205-4424-844f-3788913b4c67.PNG)
+  ![2 shop](https://user-images.githubusercontent.com/92791586/160887065-f0511981-7ce9-4113-a9e3-c67809d40927.PNG)
+
 
 2. Create Account or Signup Page
  ![shop1](https://user-images.githubusercontent.com/92791586/160384100-2a41c9a2-e5aa-4141-98f9-dd069ffd9c96.PNG)
@@ -25,13 +26,11 @@ ___________________________________________________
 ![shop 2](https://user-images.githubusercontent.com/92791586/160384275-db15bcd1-ce6b-49bf-9a20-93fb805c096d.PNG)
 
 4. Main Home Page
-  ![second home navar](https://user-images.githubusercontent.com/92791586/160618326-1152efff-ea80-4c1a-aa5f-2f06f6005c26.PNG)
-   ![beach iamge home](https://user-images.githubusercontent.com/92791586/160617102-0310e9b5-31d6-4043-b064-d87253e0fa3a.PNG)
-
-
-
+   ![se home page](https://user-images.githubusercontent.com/92791586/160888355-3541cf9c-6ad4-4256-bbe4-9f5ea8ab57e8.PNG)
+   
+  ![2 shop](https://user-images.githubusercontent.com/92791586/160887065-f0511981-7ce9-4113-a9e3-c67809d40927.PNG)
 5. Mens shopping, add to card,remove item.
- ![shop 3](https://user-images.githubusercontent.com/92791586/160384312-f8219e13-376b-4801-9511-63dacd89f2cb.PNG) 
+  
  
  ![shop 4](https://user-images.githubusercontent.com/92791586/160384349-eecf6dcf-4686-4f97-80a9-c94e151b1da6.PNG)
  
