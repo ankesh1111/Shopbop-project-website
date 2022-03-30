@@ -13,7 +13,9 @@ Shopbop is a US online fashion apparel and accessories shop opened in 1999. It h
 ___________________________________________________
 
 1.Home Page
-![shop](https://user-images.githubusercontent.com/92791586/160362654-9d89c3dd-3137-485d-b0f3-2739e09f488f.PNG)
+ ![navbar image](https://user-images.githubusercontent.com/92791586/160617625-f4e414ac-e2c9-40d5-b827-0548dac2a531.PNG)
+
+ ![beach iamge home](https://user-images.githubusercontent.com/92791586/160617102-0310e9b5-31d6-4043-b064-d87253e0fa3a.PNG)
 
 2. Create Account or Signup Page
  ![shop1](https://user-images.githubusercontent.com/92791586/160384100-2a41c9a2-e5aa-4141-98f9-dd069ffd9c96.PNG)
@@ -23,7 +25,10 @@ ___________________________________________________
 ![shop 2](https://user-images.githubusercontent.com/92791586/160384275-db15bcd1-ce6b-49bf-9a20-93fb805c096d.PNG)
 
 4. Main Home Page
-![shop](https://user-images.githubusercontent.com/92791586/160362654-9d89c3dd-3137-485d-b0f3-2739e09f488f.PNG)
+  ![second home navar](https://user-images.githubusercontent.com/92791586/160618326-1152efff-ea80-4c1a-aa5f-2f06f6005c26.PNG)
+   ![beach iamge home](https://user-images.githubusercontent.com/92791586/160617102-0310e9b5-31d6-4043-b064-d87253e0fa3a.PNG)
+
+
 
 5. Mens shopping, add to card,remove item.
  ![shop 3](https://user-images.githubusercontent.com/92791586/160384312-f8219e13-376b-4801-9511-63dacd89f2cb.PNG) 
