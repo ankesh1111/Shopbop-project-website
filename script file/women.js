@@ -2,49 +2,49 @@ var womensData = [
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/merlt/merlt30028188ee/merlt30028188ee_1648056262628_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK PRINT LEGGINGS ",
+      name: "SWF",
       price: 1549,
       strikedoffprice: 1799,
     },
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/pdeni/pdeni4100415d91/pdeni4100415d91_q1_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK POLYTIGHT",
+      name: "ba&sh",
       price: 1249,
       strikedoffprice: 1749,
     },
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/toryb/toryb494321df7f/toryb494321df7f_1648138456337_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK SLEEVE TEE",
+      name:  "3.1 Philip  Lim",
       price: 699,
       strikedoffprice: 1245,
     },
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rachc/rachc2153810c4d/rachc2153810c4d_1648151754458_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Andersson Bell",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         " https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mouss/mouss30185102c9/mouss30185102c9_1647111193834_2-0._SH20_QL90_UY365_PGshopbop-ex-sticker-3_UY365_.jpg",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Madewell",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC LEGGINGS",
+      name: "Rachel Comey",
       price: 1399,
       strikedoffprice: 2799,
     },
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv206351a059/leviv206351a059_q1_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK CLASSIC TIGHTS",
+      name: "Ramy Brook",
       price: 1099,
       strikedoffprice: 1249,
     },
@@ -58,28 +58,28 @@ var womensData = [
     {
       image_url:
         "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/nthre/nthre302581d186/nthre302581d186_1648067707177_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S CLASSIC REEBOK PANTS",
+      name: "Self Portrait",
       price: 1459,
       strikedoffprice: 1235,
     },
     {
       image_url:
         " https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/nlota/nlota2113012631/nlota2113012631_1648067898606_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK RUNNING RUN ESSENTIALS SHORT SLEEVE GRAPHIC",
+      name: "Lele Sadoughi",
       price: 849,
       strikedoffprice: 2599,
     },
     {
       image_url:
         " https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tspor/tspor303711cd76/tspor303711cd76_1648057129131_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK TRAINING WOR MESH TIGHTS",
+      name: "MARA HOFFMAN",
       price: 1550,
       strikedoffprice: 2599,
     },
     {
       image_url:
         " https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ststa/ststa30104102c9/ststa30104102c9_1648070042868_2-0._SH20_QL90_UY365_.jpg",
-      name: "WOMEN'S REEBOK RUNNING OSR HIGH-IMPACT BRA",
+      name: "Caterina Bertini",
       price: 1399,
       strikedoffprice: 6599,
     },
@@ -93,49 +93,49 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2296/reebok_GL2296_1.jpg.plp",
-      name: "WOMEN'S REEBOK PRINT LEGGINGS ",
+      name: "MONROW",
       price: 1549,
       strikedoffprice: 1799,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GV5726/reebok_GV5726_1.jpg.plp",
-      name: "WOMEN'S REEBOK POLYTIGHT",
+      name: "LAGENCE",
       price: 1249,
       strikedoffprice: 1749,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2338/reebok_GT2338_1.jpg.plp",
-      name: "WOMEN'S REEBOK SLEEVE TEE",
+      name: "RE/DONE",
       price: 699,
       strikedoffprice: 1245,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2841/adidas_GL2841_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Cara Cara",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2842/adidas_GL2842_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Self Portarit",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC LEGGINGS",
+      name: "Triarchy",
       price: 1399,
       strikedoffprice: 2799,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC TIGHTS",
+      name: "A.L.C",
       price: 1099,
       strikedoffprice: 1249,
     },
@@ -149,28 +149,28 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S CLASSIC REEBOK PANTS",
+      name: "ALICE+OLIVIA",
       price: 1459,
       strikedoffprice: 1235,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2355/reebok_GT2355_1.jpg.plp",
-      name: "WOMEN'S REEBOK RUNNING RUN ESSENTIALS SHORT SLEEVE GRAPHIC",
+      name:  "English Factory",
       price: 849,
       strikedoffprice: 2599,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK TRAINING WOR MESH TIGHTS",
+      name: "STAUD",
       price: 1550,
       strikedoffprice: 2599,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM5610/reebok_GM5610_1.jpg.plp",
-      name: "WOMEN'S REEBOK RUNNING OSR HIGH-IMPACT BRA",
+      name: "ANINE BING",
       price: 1399,
       strikedoffprice: 6599,
     },
@@ -184,35 +184,35 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2296/reebok_GL2296_1.jpg.plp",
-      name: "WOMEN'S REEBOK PRINT LEGGINGS ",
+      name: "AMO",
       price: 1549,
       strikedoffprice: 1799,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GV5726/reebok_GV5726_1.jpg.plp",
-      name: "WOMEN'S REEBOK POLYTIGHT",
+      name: "Pistola Denim",
       price: 1249,
       strikedoffprice: 1749,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2338/reebok_GT2338_1.jpg.plp",
-      name: "WOMEN'S REEBOK SLEEVE TEE",
+      name: "FRAME",
       price: 699,
       strikedoffprice: 1245,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2841/adidas_GL2841_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Altuzarra",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2842/adidas_GL2842_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "L'space",
       price: 749,
       strikedoffprice: 1299,
     },
@@ -226,7 +226,7 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC TIGHTS",
+      name: "Jennifer Behr",
       price: 1099,
       strikedoffprice: 1249,
     },
@@ -240,28 +240,28 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S CLASSIC REEBOK PANTS",
+      name:  "Isabel Marant",
       price: 1459,
       strikedoffprice: 1235,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2355/reebok_GT2355_1.jpg.plp",
-      name: "WOMEN'S REEBOK RUNNING RUN ESSENTIALS SHORT SLEEVE GRAPHIC",
+      name: "Vince",
       price: 849,
       strikedoffprice: 2599,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK TRAINING WOR MESH TIGHTS",
+      name: "MARA HOFFMAN",
       price: 1550,
       strikedoffprice: 2599,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM5610/reebok_GM5610_1.jpg.plp",
-      name: "WOMEN'S REEBOK RUNNING OSR HIGH-IMPACT BRA",
+      name: "Theory",
       price: 1399,
       strikedoffprice: 6599,
     },
@@ -275,49 +275,49 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2296/reebok_GL2296_1.jpg.plp",
-      name: "WOMEN'S REEBOK PRINT LEGGINGS ",
+      name: "Tibi",
       price: 1549,
       strikedoffprice: 1799,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GV5726/reebok_GV5726_1.jpg.plp",
-      name: "WOMEN'S REEBOK POLYTIGHT",
+      name: "Stella Nova",
       price: 1249,
       strikedoffprice: 1749,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2338/reebok_GT2338_1.jpg.plp",
-      name: "WOMEN'S REEBOK SLEEVE TEE",
+      name: "Borgo de Nor",
       price: 699,
       strikedoffprice: 1245,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2841/adidas_GL2841_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "English Factory",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GL2842/adidas_GL2842_1.jpg.plp",
-      name: "WOMEN'S REEBOK PP TIGHTS",
+      name: "Marque Almeida",
       price: 749,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC LEGGINGS",
+      name: "Castaner",
       price: 1399,
       strikedoffprice: 2799,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK CLASSIC TIGHTS",
+      name: "Enza Costa",
       price: 1099,
       strikedoffprice: 1249,
     },
@@ -331,21 +331,21 @@ var womensData = [
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-      name: "WOMEN'S CLASSIC REEBOK PANTS",
+      name: "MUNTHE",
       price: 1459,
       strikedoffprice: 1235,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GT2355/reebok_GT2355_1.jpg.plp",
-      name: "WOMEN'S REEBOK RUNNING RUN ESSENTIALS SHORT SLEEVE GRAPHIC",
+      name: "Zimmermann",
       price: 849,
       strikedoffprice: 2599,
     },
     {
       image_url:
         "https://content.shop4reebok.com/static/Product-GM3404/adidas_GM3404_1.jpg.plp",
-      name: "WOMEN'S REEBOK TRAINING WOR MESH TIGHTS",
+      name: "Free People",
       price: 1550,
       strikedoffprice: 2599,
     },
