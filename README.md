@@ -1,8 +1,14 @@
- # Shopbop LoginPage_Clone
-
+ # Shopbop_LoginPage_Clone
  
-Shopbop is a US online fashion apparel and accessories shop opened in 1999. It has been a subsidiary of Amazon.com since 2006
-_______________________________________________________________________________________________
+ Hello Readers,
+ 
+ I hope all of you are doing good and safe. I am happy  to share with ypu all that. I created our first project Shopbop in construct week project. This blog is all 
+ about our journey and the challenges we faced while building the project. We build this websitein just 3 days and none more day for preparing for the presentation 
+ documentation
+ 
+ ## Creaters:- Ankesh Yadav
+
+ _______________________________________________________________________________________________
 # Technologies We used
  
 1.HTML, CSS
@@ -10,8 +16,6 @@ ________________________________________________________________________________
 2.JAVASCRIPT
 
 3.Browser LocalStorage for Frontend
-
-Project Member:- Ankesh Yadav.
 _______________________________________________________
 # Blog Link:-
 https://medium.com/@ankesh11yadav/construct-week-individual-project-2022-shopbop-project-masai-school-9729e5b5d375
@@ -22,6 +26,7 @@ ___________________________________________
 
 
 # Shopbop Shopping Website
+Shopbop is a US online fashion apparel and accessories shop opened in 1999. It has been a subsidiary of Amazon.com since 2006
 
  # 1.Home Page
 
