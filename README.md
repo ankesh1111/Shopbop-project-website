@@ -1,27 +1,29 @@
  # Shopbop LoginPage_Clone
 
-________________________________________
+ 
 Shopbop is a US online fashion apparel and accessories shop opened in 1999. It has been a subsidiary of Amazon.com since 2006
 _______________________________________________________________________________________________
 # Technologies We used
-___________________________________
-
+ 
 1.HTML, CSS
 
 2.JAVASCRIPT
 
 3.Browser LocalStorage for Frontend
 
-_______________________________________________________
 Project Member:- Ankesh Yadav.
+_______________________________________________________
+# Blog Link:-
+https://medium.com/@ankesh11yadav/construct-week-individual-project-2022-shopbop-project-masai-school-9729e5b5d375
+
+# Project Video
+https://drive.google.com/file/d/1K9wb91mBwTEoNTXiCdbqtFmkAr4fqAcZ/view?usp=sharing
 ___________________________________________
 
-Shopbop Shopping Website
 
+# Shopbop Shopping Website
 
-___________________________________________________
-
-# 1.Home Page
+ # 1.Home Page
 
 ![homw navbar](https://user-images.githubusercontent.com/92791586/160887594-39ad2bff-b205-4424-844f-3788913b4c67.PNG)
   ![2 shop](https://user-images.githubusercontent.com/92791586/160887065-f0511981-7ce9-4113-a9e3-c67809d40927.PNG)
