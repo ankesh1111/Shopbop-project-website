@@ -14,7 +14,8 @@ ___________________________________________________
 
 1.Home Page
 
-![homw navbar](https://user-images.githubusercontent.com/92791586/160887594-39ad2bff-b205-4424-844f-3788913b4c67.PNG)
+ ![project 1 image](https://user-images.githubusercontent.com/92791586/161200650-efb7cb82-afb4-4982-b58c-75ab6168449a.PNG)
+
   ![2 shop](https://user-images.githubusercontent.com/92791586/160887065-f0511981-7ce9-4113-a9e3-c67809d40927.PNG)
 
 
