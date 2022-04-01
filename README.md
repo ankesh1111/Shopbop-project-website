@@ -32,10 +32,11 @@ ___________________________________________________
 5. Mens shopping, add to card,remove item.
   
  
- ![shop 4](https://user-images.githubusercontent.com/92791586/160384349-eecf6dcf-4686-4f97-80a9-c94e151b1da6.PNG)
+
+![men page new](https://user-images.githubusercontent.com/92791586/161197682-66f938cb-8cc9-42c4-9a96-d6b260b02a28.PNG)
  
  6. Women Shopping, add to card, remove item.
- ![women shop](https://user-images.githubusercontent.com/92791586/160385981-fe78dd68-1eb1-4f08-995f-09bf35eaf90e.PNG)
+  ![women new page](https://user-images.githubusercontent.com/92791586/161197508-b972c72b-59b2-4f3f-9a67-6fb6f0f2805f.PNG)
 ![women card item](https://user-images.githubusercontent.com/92791586/160387103-858a27e6-7c39-4a53-9d97-cfc8f7ccce4e.PNG)
 
 7. Checkout Payment Page
