@@ -16,7 +16,7 @@ _______________________________________________________
 # Blog Link:-
 https://medium.com/@ankesh11yadav/construct-week-individual-project-2022-shopbop-project-masai-school-9729e5b5d375
 
-# Project Video
+# Project Video:-
 https://drive.google.com/file/d/1K9wb91mBwTEoNTXiCdbqtFmkAr4fqAcZ/view?usp=sharing
 ___________________________________________
 
