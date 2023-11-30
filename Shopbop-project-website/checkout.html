@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1{
+          text-align: center;
+          font-family: sans-serif;
+      }
+      .child1{
+        margin: auto;
+        margin-top: 15px;
+        width: 348px;
+        height:450px;
+        border: 1px solid rgb(51, 28, 28);
+        
+        padding: 20px 17px;
+        box-sizing: border-box;
+    
+      }
+      input{
+        margin-left:50px;
+        height:40px;
+        width: 200px;
+      }
+      .button1{
+        font-size: 20px;
+        width:67%;
+        height:45px;
+        text-align: center;
+        margin-top: 14px;
+        background-color:red;
+        margin-left: 51px;
+        border: 1px solid #a5873b;
+        padding: 10px;
+        letter-spacing: 0.5px;
+        color:white;
+      }
+      .button1 a{
+        color: white;
+        border: none;
+      }
+      .labels {
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-left:50px;
+        font-weight: bolder;
+      }
+    </style>
+</head>
+<body>
+<h1>Payment Page</h1>
+<form>
+   
+   <div class="child1">
+
+      <!-- card number -->
+     <p style="margin-bottom: 5px" class="labels">Your card Number</p>
+    
+     <input type="text" placeholder="Enter Card Number" class="input" id="card"/>
+
+         <!-- cvv number-->
+
+     <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">CVV Number</div>
+ 
+     <input type="text" placeholder="Enter Cvv Number" class="input" id="cvv" />
+
+         <!-- expiry date-->
+     
+     <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Expiry Date</div>
+      
+     <input type="password" class="input" id="pass" placeholder="date"/> 
+
+     <!-- <------otp number-------------->  
+     
+       <div class="labels" style="display:flex; justify-content: space-between; margin-top: 16px; margin-bottom: 5px;">Otp</div>
+     <input type="password" placeholder="Enter Otp" class="input" id="otp"/> 
+     
+     <!-- #button -->
+     <button class="button1" id="button" ><a href="./index1.html"> Submit</a></button>
+
+ </form>
+</body>
+</html>
+
+<script>
+document.querySelector("form").addEventListener("submit",myfunc);
+
+var data=JSON.parse(localStorage.getItem("card"))
+
+function myfunc(){
+event.preventDefault();
+
+var catObj={
+  card:document.querySelector("#card").value,
+  cvv:document.querySelector("#cvv").value,
+  expiry:document.querySelector("#pass").value,
+  otp:document.querySelector("#otp").value,
+
+
+}
+Data.push(catObj);
+// window.location.href="index1.html"
+localStorage.setItem("card",JSON.stringify("Data"))
+}
+</script> 

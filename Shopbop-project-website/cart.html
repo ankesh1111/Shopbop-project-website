@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             #container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        width: 86%;
+        /* border: 1px solid red; */
+        margin-left: 100px;
+        margin: auto;
+      }
+      #container div{
+        margin-left:33px;
+        width: 230px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        height:458px;
+        /* border: 1px solid red; */
+      }
+      h1{
+          text-align: center;
+          color: red;
+          margin-top: -37px;
+          font-family: sans-serif;
+      }
+      img{
+        width: 230px;
+        height:300px;
+      }
+      button{
+        padding: 10px;
+        background-color: red;
+        border: none;
+        margin-left: 62px;
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      p{
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+      }
+      .p2{
+        margin-left: 470px;
+        color: white
+      
+      }
+    </style>
+
+</head>
+<body>
+ <br>
+    <button class="p2"><a href="checkout.html" target="blank">Checkout</a></button>
+  
+    <h1>Cart Page</h1>
+   
+    <p>Card Page</p>
+    <br>
+    <div id="container">
+
+    </div>
+</body>
+</html>
+<script>
+    var cartData = JSON.parse(localStorage.getItem("cart")); 
+    console.log(cartData);
+  
+    var total = cartData.reduce(function (sum, elem, index, arr) {
+      return sum + Number(elem.price);
+    }, 0);
+  
+    var length = cartData.length;
+    console.log(length);
+  
+    console.log(total);
+     
+    document.querySelector(
+      "p"
+    ).innerText = ` You have ${length} Items in Cart and  Total is Rs ${total}`;
+  
+    cartData.map(function (elem, index) {
+      var box = document.createElement("div");
+  
+      var img = document.createElement("img");
+      img.src = elem.image_url;
+  
+      var name = document.createElement("p");
+      name.textContent = elem.name;
+  
+      var price = document.createElement("p");
+      price.innerText = elem.price;
+  
+      var btn = document.createElement("button");
+      btn.innerText = "Remove";
+      btn.addEventListener("click", function () {
+        removeItem(elem, index);
+      });
+  
+      box.append(img, name, price, btn);
+  
+      document.querySelector("#container").append(box);
+    });
+  
+    function removeItem(elem, index) {
+      console.log(elem, index);
+      cartData.splice(index, 1);
+      console.log(cartData);
+      localStorage.setItem("cart", JSON.stringify(cartData));
+      window.location.reload();
+    }
+  
+     
+    </script> 
+  
