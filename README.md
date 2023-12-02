@@ -2,8 +2,8 @@
  
  Hello Readers,
  
- I hope all of you are doing good and safe. I am happy  to share with ypu all that. I created our first project Shopbop in construct week project. This blog is all 
- about our journey and the challenges we faced while building the project. We build this websitein just 3 days and none more day for preparing for the presentation 
+ I hope all of you are doing good and safe. I am happy  to share with ypu all that. I created our first project Shopbop. This blog is all 
+ about our journey and the challenges we faced while building the project. We build this websitein just 5 days and none more day for preparing for the presentation 
  documentation
  
  ## Creaters:- Ankesh Yadav
@@ -17,14 +17,6 @@
 
 3.Browser LocalStorage for Frontend
 _______________________________________________________
-# Blog Link:-
-https://medium.com/@ankesh11yadav/construct-week-individual-project-2022-shopbop-project-masai-school-9729e5b5d375
-
-# Presentation Video Link:-
-https://drive.google.com/file/d/1K9wb91mBwTEoNTXiCdbqtFmkAr4fqAcZ/view?usp=sharing
-___________________________________________
-
-
 # Shopbop Shopping Website
 Shopbop is a US online fashion apparel and accessories shop opened in 1999. It has been a subsidiary of Amazon.com since 2006
 
