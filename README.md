@@ -2,7 +2,7 @@
  
  Hello Readers,
  
- I hope all of you are doing good and safe. I am happy  to share with ypu all that. I created our first project Shopbop. This blog is all 
+ I hope all of you are doing good and safe. I am happy  to share with you all that. I created our first project Shopbop. This blog is all 
  about our journey and the challenges we faced while building the project. We build this websitein just 5 days and none more day for preparing for the presentation 
  documentation
  
